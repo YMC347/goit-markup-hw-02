@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*FONTS*/
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+.header__navigation,
+.header__contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.studio__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+.studio__button {
+  background-color: var(--active-color);
+  color: var(--detail-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-style: none;
+  cursor: pointer;
+}
+.values__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.values__description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.about .about__texts {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.team__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.team__name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.team__position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/*LIBRARY COLORS*/
+:root {
+  --primary-color: rgb(117, 117, 117);
+  --detail-color: rgb(255, 255, 255);
+  --inactive-color: rgb(33, 33, 33);
+  --active-color: rgb(33, 150, 243);
+  --back-color: rgba(47, 48, 58, 1);
+}
+/*INDEX SECTIONS*/
+.current {
+  color: var(--active-color);
+}
+.logo-blue {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--active-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/*END OF FONTS*/
+.header .logo-blue {
+  color: var(--active-color);
+}
+.header__navigation .header__link {
+  color: var(--inactive-color);
+}
+.header__navigation .header__link:hover {
+  color: var(--active-color);
+}
+.header__contact .contact__link {
+  color: var(--inactive-color);
+}
+.header__contact .contact__link:hover {
+  color: var(--active-color);
+}
+.studio__item {
+  background-color: var(--back-color);
+  color: var(--detail-color);
+}
+.values__title {
+  color: var(--inactive-color);
+}
+.values__description {
+  color: var(--primary-color);
+}
+.about .about__texts {
+  color: var(--inactive-color);
+}
+.team__title {
+  color: var(--inactive-color);
+}
+.team__name {
+  color: var(--inactive-color);
+}
+.team__position {
+  color: var(--primary-color);
+}
+.footer {
+  background-color: var(--back-color);
+}
+.footer__link {
+  color: var(--detail-color);
+}
+/*ESTILOS DE PORTFOLIO*/
+.filter__button {
+  background-color: rgba(245, 244, 250, 1);
+  color: var(--inactive-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-style: none;
+  cursor: pointer;
+}
+.filter__button:focus {
+  background-color: var(--active-color);
+  color: var(--detail-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-style: none;
+  cursor: pointer;
+}
+.project__title {
+  color: var(--inactive-color);
+}
+.project__description {
+  color: var(--primary-color);
+}
+.project__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
